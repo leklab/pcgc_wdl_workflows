@@ -1,0 +1,9 @@
+{
+	"final_workflow_outputs_dir": "/gpfs/ycga/scratch60/ysm/lek/ml2529/pcgc_exomes/output",
+	"final_workflow_log_dir": "/gpfs/ycga/scratch60/ysm/lek/ml2529/pcgc_exomes/output",
+	"final_call_logs_dir": "/gpfs/ycga/scratch60/ysm/lek/ml2529/pcgc_exomes/output",
+	"delete_intermediate_output_files": true,
+	"use_relative_output_paths": true,
+	"write_to_cache": true,
+	"read_from_cache": true
+}

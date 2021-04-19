@@ -1,0 +1,8 @@
+{
+	"exome_processing.ref": "/gpfs/ycga/project/lek/shared/resources/hg38/Homo_sapiens_assembly38.fasta",
+	"exome_processing.dbsnp": "/gpfs/ycga/project/lek/shared/resources/hg38/Homo_sapiens_assembly38.dbsnp138.vcf",
+	"exome_processing.targets": "/gpfs/ycga/project/ysm/lek/shared/resources/hg38/exome_calling_regions.v1.interval_list",
+	"exome_processing.picard": "$EBROOTPICARD/picard.jar",
+	"exome_processing.gatk": "$EBROOTGATK/GenomeAnalysisTK.jar",
+	"exome_processing.inputSamplesFile": "/home/ml2529/scratch60/pcgc_exomes/fastq_manifest2.tsv"
+}
