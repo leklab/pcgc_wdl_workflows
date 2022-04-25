@@ -1,0 +1,38 @@
+{  
+  "##_COMMENT1": "INPUT GVCFs & COHORT -- DATASET-SPECIFC, MUST BE ADAPTED",
+  "JointGenotyping.sample_sheet": "/home/ml2529/PCGC/monkol/random_scripts/pcgc12_test.tsv",
+  "JointGenotyping.callset_name": "PCGC12",
+
+  "##_COMMENT2": "REFERENCE FILES",
+  "JointGenotyping.ref_fasta": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/Homo_sapiens_assembly19.fasta",
+  "JointGenotyping.ref_fasta_index": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/Homo_sapiens_assembly19.fasta.fai",
+  "JointGenotyping.ref_dict": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/Homo_sapiens_assembly19.dict",
+
+  "##_COMMENT3": "INTERVALS",
+  "JointGenotyping.eval_interval_list": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/exome_evaluation_regions.v1.interval_list",
+  "JointGenotyping.interval_bed_files": "b37_wgs_scattered_calling_intervals_localpaths.txt",
+  
+  "##_COMMENT4": "RESOURCE FILES",
+  "JointGenotyping.dbsnp_vcf": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/Homo_sapiens_assembly19.dbsnp138.vcf",
+  "JointGenotyping.dbsnp_vcf_index": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/Homo_sapiens_assembly19.dbsnp138.vcf.idx",
+  "JointGenotyping.one_thousand_genomes_resource_vcf": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/1000G_phase1.snps.high_confidence.b37.vcf.gz",
+  "JointGenotyping.one_thousand_genomes_resource_vcf_index": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/1000G_phase1.snps.high_confidence.b37.vcf.gz.tbi",
+  "JointGenotyping.omni_resource_vcf": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/1000G_omni2.5.b37.vcf.gz",
+  "JointGenotyping.omni_resource_vcf_index": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/1000G_omni2.5.b37.vcf.gz.tbi",
+  "JointGenotyping.mills_resource_vcf": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/Mills_and_1000G_gold_standard.indels.b37.vcf.gz",
+  "JointGenotyping.mills_resource_vcf_index": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/Mills_and_1000G_gold_standard.indels.b37.vcf.gz.tbi",
+  "JointGenotyping.axiomPoly_resource_vcf": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/Axiom_Exome_Plus.genotypes.all_populations.poly.vcf.gz",
+  "JointGenotyping.axiomPoly_resource_vcf_index": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/Axiom_Exome_Plus.genotypes.all_populations.poly.vcf.gz.tbi",
+  "JointGenotyping.hapmap_resource_vcf": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/hapmap_3.3.b37.vcf.gz",
+  "JointGenotyping.hapmap_resource_vcf_index": "/gpfs/ycga/project/ysm/lek/shared/resources/b37/hapmap_3.3.b37.vcf.gz.tbi",
+
+  "##_COMMENT5": "VQSR PARAMETERS",
+  "JointGenotyping.SNP_VQSR_downsampleFactor": 10,
+  "JointGenotyping.snp_filter_level": 99.7,
+  "JointGenotyping.indel_filter_level": 99.7,
+  "JointGenotyping.indel_recalibration_annotation_values": ["FS", "ReadPosRankSum", "MQRankSum", "QD", "SOR", "DP"],
+  "JointGenotyping.indel_recalibration_tranche_values": ["100.0", "99.95", "99.9", "99.5", "99.0", "97.0", "96.0", "95.0", "94.0", "93.5", "93.0", "92.0", "91.0", "90.0"],
+  "JointGenotyping.snp_recalibration_tranche_values": ["100.0", "99.95", "99.9", "99.8", "99.6", "99.5", "99.4", "99.3", "99.0", "98.0", "97.0", "90.0" ],
+  "JointGenotyping.snp_recalibration_annotation_values": ["QD", "MQRankSum", "ReadPosRankSum", "FS", "MQ", "SOR", "DP"]
+
+}

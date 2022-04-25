@@ -1,0 +1,7 @@
+{
+	"final_workflow_outputs_dir": "/home/ml2529/PCGC/monkol/pcgc12_callset",
+	"final_workflow_log_dir": "/home/ml2529/PCGC/monkol/pcgc12_callset",
+	"final_call_logs_dir": "/home/ml2529/PCGC/monkol/pcgc12_callset",
+	"use_relative_output_paths": true
+}
+
